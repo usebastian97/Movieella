@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Moviee</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_movie">Movie</string>
+    <string name="nav_tv_series">TV Series</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

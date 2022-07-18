@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="usebi.moviee.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_movie"
+        android:name="usebi.moviee.NavigationMovie"
+        android:label="fragment_navigation_movie"
+        tools:layout="@layout/fragment_navigation_movie" />
+    <fragment
+        android:id="@+id/navigation_tv_series"
+        android:name="usebi.moviee.NavigationTvSeries"
+        android:label="fragment_navigation_tv_series"
+        tools:layout="@layout/fragment_navigation_tv_series" />
+
+
+</navigation>
